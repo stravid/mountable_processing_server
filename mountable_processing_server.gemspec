@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["David Strauß"]
   spec.email         = ["david@strauss.io"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Simple mountable server that processes images.}
+  spec.description   = %q{Simple mountable server that processes images.}
+  spec.homepage      = "https://www.github.com/stravid/mountable_processing_server"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
