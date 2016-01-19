@@ -34,7 +34,7 @@ module MountableProcessingServer
         watermark = MiniMagick::Image.open params["watermark"]
 
         image = image.composite(watermark, 'png') do |composite|
-          composite.gravity "Center"
+          composite.geometry "+10+10"
         end
       end
 
