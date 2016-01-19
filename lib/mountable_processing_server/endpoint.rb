@@ -17,7 +17,8 @@ module MountableProcessingServer
       image = MiniMagick::Image.open @source_directory + original
 
       if params["frame"]
-        image = image.coalesce
+        # Currently to expensive for large GIFs
+        # image = image.coalesce
         frame = image.frames[params["frame"].to_i]
 
         Tempfile.open "frame" do |file|
